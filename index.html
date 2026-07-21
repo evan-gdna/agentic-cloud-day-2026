@@ -1128,8 +1128,24 @@
     <div class="glow"></div>
     <h2>Seats are limited — don't miss it</h2>
     <p>Secure your spot for Charleston's premier AI &amp; cloud innovation event.</p>
-    <div style="max-width:560px;margin:0 auto;position:relative;">
+    <div style="max-width:560px;margin:0 auto;position:relative;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:32px;">
       <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+      <script>
+        hbspt.forms.create({
+          portalId: "39976963",
+          formId: "23ca3d87-59ad-40c7-93e9-853c1621f088",
+          region: "na1",
+          css: "",
+          cssClass: "",
+          onFormReady: function($form) {
+            $form.find('label').css('color', '#E8F0F4');
+            $form.find('input, textarea, select').css({'background':'rgba(255,255,255,0.08)','border':'1px solid rgba(255,255,255,0.2)','color':'#fff','border-radius':'8px','padding':'12px'});
+            $form.find('.hs-button').css({'background':'#FF9900','color':'#002D43','border':'none','border-radius':'8px','padding':'14px 32px','font-weight':'700','font-size':'1rem','cursor':'pointer'});
+            $form.find('.hs-submit').css('text-align','center');
+          }
+        });
+      </script>
+    </div>
       <script>
         hbspt.forms.create({
           portalId: "39976963",
